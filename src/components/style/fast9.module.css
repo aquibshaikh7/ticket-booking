@@ -1,0 +1,72 @@
+* {
+  padding: 2;
+  margin: 0;
+}
+
+.tdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+}
+button {
+  margin-left: 748px;
+  padding: 5px;
+  /* margin-bottom: 1rem; */
+  width: 70px;
+  height: 25px;
+  /* font-size: 20px; */
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #f27163;
+}
+
+.gap {
+  height: 100px;
+}
+.gap1 {
+  width: 100px;
+}
+
+.check {
+  width: 40px;
+  height: 40px;
+}
+
+div h1 {
+  margin-left: 44rem;
+}
+input[type="checkbox"]:checked {
+  /* accent-color: green; */
+  background-color: green;
+}
+input {
+  appearance: none;
+  border: 1px solid black;
+  border-radius: 25%;
+}
+input:hover {
+  background-color: green;
+}
+
+.kposter {
+  display: flex;
+  width: 20rem;
+  position: absolute;
+  left: 10px;
+  height: 35rem;
+  top: 3rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0 5px #333;
+  /* overflow: auto; */
+}
+.kposter::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.kposter:hover {
+  background-color: black;
+  color: white;
+}
